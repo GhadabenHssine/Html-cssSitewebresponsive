@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coustard&family=DM+Serif+Display&family=Dancing+Script:wght@400;500;600&family=Indie+Flower&family=Kanit:wght@100&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lavishly+Yours&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@1,100&family=Nunito:ital,wght@0,200;0,400;1,200;1,300;1,400&family=Oswald:wght@200&family=Raleway&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,100;1,400;1,500&family=Smokum&family=Smooch&family=Square+Peg&family=Syne+Mono&family=Tapestry&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    height: 80vh;
+    background: url('https://cutt.ly/TzafOyS');
+   
+    background-position: center;
+    color:#fff;
+    text-align: center;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+header nav a{
+    color: #bababa;
+    text-decoration: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+header nav a:hover{
+    color: #fff;
+    border-bottom: 1px solid rgb(143, 11, 84);
+}
+header .prencipal{
+margin-top: 50px;
+}
+
+header .prencipal h4{
+    padding: 20px;
+    margin-top: -10px;
+}
+.premiers-presentations{
+    background-color: #222f3e;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.premiers-presentations .gauche{
+    width: 60%;
+    margin-right: 20px;
+}
+
+.offres{
+    padding: 30px;
+    background: url('https://cutt.ly/TzaFkYJ');
+    background-position: center;
+    color:#fff;
+}
+.offres h2,.offres p{
+    text-align: center;
+}
+.offres .offres-cartes{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.offres .offres-cartes .carte{
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.offres .offres-cartes .carte img {
+height: 200px;
+
+}
+.parteneaire{
+    background-color: #222f3e;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color:#fff;
+   
+}
+.parteneaire h2{
+    text-align: center;
+}
+.parteneaire .partenaire-image{
+    display: flex;
+  overflow-x:auto;
+margin-top: -30px;
+padding: 20px;
+}
+.parteneaire .partenaire-image p{
+    margin-right: 30px;
+}
+.parteneaire .partenaire-image p img {
+height: 40px;
+
+}
+
+footer{
+    background-color: #18212b;
+    padding: 30px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .social-media{
+    display: flex;
+}
+footer .social-media p{
+    margin-right: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+    width: 20px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:810px) {
+    .premiers-presentations .gauche{
+        width: 100%;
+     
+    }
+    .premiers-presentations .droite{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     
+    }
+}
